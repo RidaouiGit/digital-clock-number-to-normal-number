@@ -53,7 +53,7 @@ public class DigitalNumber {
         StringBuilder result = new StringBuilder();
         for (fileLineNumber = 0; fileLineNumber < 44; fileLineNumber += 4) {
             lineRowFile = 0;
-            while (lineRowFile < 29) {
+            while (lineRowFile < 30) {
 
                 String row1 = (list.get(fileLineNumber)).substring(lineRowFile, 3 + lineRowFile);
                 String row2 = (list.get(1 + fileLineNumber)).substring(lineRowFile, 3 + lineRowFile);
